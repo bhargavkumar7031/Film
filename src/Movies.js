@@ -10,7 +10,7 @@ const Movies = () => {
     return <div className="loading"></div>;
   }
   return (
-    <section className="Movies">
+    <section className="movies">
       {movies.map((movie) => {
         const { imdbID: id, Poster: poster, Title: title, Year: year } = movie;
         return (
